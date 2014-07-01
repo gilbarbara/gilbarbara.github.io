@@ -1,5 +1,7 @@
 @import "compass/css3";
 
+@import "bootstrap";
+
 $color-primary: #FF0044;
 $color-secondary: #ECFF00;
 
@@ -16,9 +18,10 @@ a:hover {
 	color: $color-secondary;
 }
 
+
 .header {
 	border-bottom: 1px solid $color-secondary;
-	margin-bottom: 20px;
+	margin-bottom: $grid-gutter-width;
 	padding: 20px 0 10px;
 	text-align: center;
 
@@ -47,8 +50,7 @@ a:hover {
 }
 
 .technologies {
-	border-bottom: 1px solid #FFF;
-	border-top: 1px solid #FFF;
+//	background-color: rgba(255, 255, 255, 0.1);
 	font-weight: 200;
 	font-size: 18px;
 	margin: 0 30px;
