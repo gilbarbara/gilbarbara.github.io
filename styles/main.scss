@@ -18,15 +18,14 @@ a:hover {
 	color: $color-secondary;
 }
 
-
 .header {
 	border-bottom: 1px solid $color-secondary;
 	margin-bottom: $grid-gutter-width;
-	padding: 20px 0 10px;
+	padding: 30px 0 10px;
 	text-align: center;
 
 	h1 {
-		font-size: 40px;
+		font-size: 50px;
 		margin: 0;
 	}
 
@@ -35,6 +34,7 @@ a:hover {
 		font-weight: 200;
 		line-height: 1.6;
 		margin-bottom: 20px;
+		margin-top: 5px;
 	}
 }
 
@@ -53,8 +53,7 @@ a:hover {
 //	background-color: rgba(255, 255, 255, 0.1);
 	font-weight: 200;
 	font-size: 18px;
-	margin: 0 30px;
-	padding: 15px 0;
+	margin: 15px;
 	text-align: center;
 }
 
