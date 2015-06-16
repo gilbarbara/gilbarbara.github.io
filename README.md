@@ -1,4 +1,4 @@
 gilbarbara.github.io
 ====================
 
-Public profile
+[My Resume](http://gilbarbara.github.io)
